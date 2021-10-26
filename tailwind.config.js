@@ -19,7 +19,11 @@ module.exports = {
             peach_puff: "#FFD7BA",
             peach_crayolar: "#FEC89A"
         },
-        extend: {},
+        extend: {
+            backgroundImage: {
+                "main-background-img": "/images/pink_panther.JPG"
+            }
+        },
     },
     variants: {
         extend: {},

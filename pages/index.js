@@ -1,12 +1,13 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import MainLayout from "../components/Layout/MainLayout";
+import MainContainer from "../components/Containers/MainContainer";
 
 export default function Home() {
-  return (
-    <div>
-      xdff
-    </div>
-  )
+    return (
+        <MainLayout>
+            <MainContainer>
+                Content
+            </MainContainer>
+        </MainLayout>
+    );
 }
 
