@@ -1,6 +1,5 @@
 import React, {useEffect, useState} from "react";
 import Image from "next/image/";
-import {getUnsplashUrl} from "../../utils/Unsplash";
 import {PHOTO_ID} from "../../utils/Constants";
 
 const getWindowSize = () => {
@@ -8,9 +7,12 @@ const getWindowSize = () => {
     return {width, height};
 };
 
-const Background = () => {
+const Background = ({bgPath}) => {
     const [width, setWidth] = useState();
     const [height, setHeight] = useState();
+    if (!bgPath) {
+        bgPath = PHOTO_ID.HOME_PAGE_BG_IMG;
+    }
 
     useEffect(() => {
         const {width, height} = getWindowSize();
@@ -36,8 +38,7 @@ const Background = () => {
                 <div className={"z-0 absolute h-full w-full"}>
                     <Image
                         className={"h-full w-full"}
-                        // src={getUnsplashUrl(PHOTO_ID.HOME_PAGE_BG_IMG, width, height)}
-                        src={"/images/pink_panther.JPG"}
+                        src={bgPath}
                         alt="panther"
                         layout="fill"
                         objectFit={"cover"}

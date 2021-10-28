@@ -7,8 +7,8 @@ const Header = () => {
         <MainContainer>
             <div className={`col-start-2 col-span-10 h-28 flex flex-row items-center justify-center`}>
                 <NavItem href={'/'} title={'Home'}/>
-                <NavItem href={'/About me'} title={'About me'}/>
-                <NavItem href={'/Portfolio'} title={'Portfolio'}/>
+                <NavItem href={'/AboutMe'} title={'About me'}/>
+                <NavItem href={'/Portfolios'} title={'Portfolios'}/>
             </div>
         </MainContainer>
     );

@@ -6,7 +6,7 @@ import Background from "./Background";
 const MainLayout = (props) => {
     return (
         <>
-            <Background/>
+            <Background bgPath={props.bgPath}/>
             <div className={"w-full h-full"}>
                 <Header/>
                 <div className={"min-h-screen"}>

@@ -27,15 +27,15 @@ const NavItem = ({href, title}) => {
                 ${active ? "font-bold" : ""} 
                 ${isKeyDown ? "shadow-inner" : "shadow-lg"}`}>
                 <div className={'w-full h-full relative flex items-center justify-center'}>
-                    <Image
-                        className={"absolute z-0 h-full w-full"}
-                        // src={getUnsplashUrl(PHOTO_ID.HOME_PAGE_BG_IMG, width, height)}
-                        src={"/images/paper_texture.jpeg"}
-                        alt="panther"
-                        layout="fill"
-                        objectFit={"cover"}
-                        objectPosition={"center"}/>
-                    <div className={"absolute z-10 bg-isabelline opacity-70 h-full w-full"}/>
+                    {/*<Image*/}
+                    {/*    className={"absolute z-0 h-full w-full"}*/}
+                    {/*    // src={getUnsplashUrl(PHOTO_ID.HOME_PAGE_BG_IMG, width, height)}*/}
+                    {/*    src={"/images/paper_texture.jpeg"}*/}
+                    {/*    alt="panther"*/}
+                    {/*    layout="fill"*/}
+                    {/*    objectFit={"fixed"}*/}
+                    {/*    objectPosition={"center"}/>*/}
+                    {/*<div className={"absolute z-10 bg-isabelline opacity-70 h-full w-full"}/>*/}
                     <span className={"relative z-20 h-full w-full flex items-center justify-center"}>{title}</span>
                 </div>
             </a>
