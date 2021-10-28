@@ -186,22 +186,26 @@ export const PORTFOLIO_IMAGES = [
 export const ABOUT_ME = [
     {
         title: "I play piano!",
-        text: "gadfasdgafasdf",
+        text: "I've been learning piano about 1 year. I learned a lot during this year. " +
+            "I like modern style songs and I can play a lot of them. " +
+            "I practice piano evey day during lockdown.",
         imagePath: "/images/Piano-removebg-preview.png"
     },
     {
         title: "I like painting!",
-        text: "gadfasdgafasdf",
+        text: "When I was three, I started drawing. I love drawing because drawing makes me happy. " +
+            "The deer I drawn when I was three years old.",
         imagePath: "/images/Paint-removebg-preview.png"
     },
     {
         title: "I'm good at math!",
-        text: "gadfasdgafasdf",
+        text: "I'm good at math because I spend a lot of time learning it. Now I reached year five to year six level.",
         imagePath: "/images/Math-removebg-preview.png"
     },
     {
         title: "I like DIY!",
-        text: "gadfasdgafasdf",
+        text: "I love all kinds of DIY things. For example, cooking with my mum, Lego, craft and origami. " +
+            "My favourite work is my lego piano. It's composed by 3,600 pics. I spent a week to complete it.",
         imagePath: "/images/DIY-removebg-preview.png"
     }
 ];

@@ -2,10 +2,11 @@ import React from "react";
 import MainLayout from "../../components/Layout/MainLayout";
 import MainContainer from "../../components/Containers/MainContainer";
 import ReactPlayer from "react-player";
+import {PHOTO_ID} from "../../utils/Constants";
 
 const ActivitiesPage = () => {
     return (
-        <MainLayout>
+        <MainLayout bgPath={PHOTO_ID.ABOUT_ME_BG_IMG}>
             <MainContainer>
                 <div className={"col-span-12 mt-7 flex flex-wrap items-center justify-center"}>
                     <div className={"mt-2 mx-2"}><ReactPlayer url="https://youtu.be/cku-b6mCxfw"/></div>
