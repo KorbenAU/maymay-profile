@@ -3,11 +3,11 @@ import Image from "next/image";
 
 const AboutMeCard = ({text, index, imagePath, title}) => {
     return (
-        <div className={"col-start-2 col-span-10 flex items-center justify-between mt-7"}>
+        <div className={"col-start-3 col-span-8 flex items-center justify-between mt-7"}>
             {
                 index % 2 === 0 ? (
                     <>
-                        <div className={"flex flex-col"}>
+                        <div className={"flex flex-col pl-10"}>
                             <span className={"inline-block text-4xl mb-3"}>{title}</span>
                             <span className={"inline-block text-2xl"}>{text}</span>
                         </div>
@@ -27,10 +27,10 @@ const AboutMeCard = ({text, index, imagePath, title}) => {
                                 className={""}
                                 src={imagePath}
                                 alt="image"
-                                width={"300"}
-                                height={"300"}/>
+                                width={"400"}
+                                height={"400"}/>
                         </div>
-                        <div className={"flex flex-col"}>
+                        <div className={"flex flex-col pr-10"}>
                             <span className={"inline-block text-4xl mb-3"}>{title}</span>
                             <span className={"inline-block text-2xl"}>{text}</span>
                         </div>
