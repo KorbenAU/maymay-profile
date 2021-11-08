@@ -8,7 +8,7 @@ export const HERO_SECTION = {
     TITLE: "Hi, My name is MayMay!",
     TEXT: "I'm nine years old. I was born in South Australia, Adelaide. " +
         "I like to draw and do craft. I'm good at math, piano and Lego. " +
-        "During the last few years, I've been keep learning and practice piano. " +
+        "During the last few months, I've been keep learning and practice piano. " +
         "I like to make friends to play with."
 };
 
